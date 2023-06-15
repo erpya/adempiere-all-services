@@ -16,7 +16,7 @@ POSTGRES_PASSWORD="adempiere"
 POSTGRES_PORT="5432"
 
 # Adempire ZK
-ADEMPIERE_ZK_IMAGE="erpya/adempiere-zk-ui:jetty-1.1.2"
+ADEMPIERE_ZK_IMAGE="erpya/adempiere-zk-ui:jetty-1.1.3"
 ADEMPIERE_ZK_PORT=8888
 ADEMPIERE_NAME="adempiere-all.adempiere.zk"
 
@@ -24,7 +24,7 @@ ADEMPIERE_NAME="adempiere-all.adempiere.zk"
 ADEMPIERE_GRPC_SERVER_IMAGE="erpya/adempiere-grpc-server:1.0.7"
 VUE_BACKEND_HOST=adempiere-all.adempiere.vue.backend
 SECRET_KEY="A42CF908019918B1D9D9E04E596658345D162D4C0127A4C8365E8BDF6B015CC7"
-SERVICES_ENABLED="business; business_partner; core; dashboarding; dictionary; enrollment; express_shipment; file_management; general_ledger; in_out; invoice; issue_management; log; material_management; order; payment; payment_print_export; payroll_action_notice; pos; product; security; store; time_control; time_record; ui; user_customization; workflow;"
+SERVICES_ENABLED="bank_statement_match; business; business_partner; core; dashboarding; dictionary; enrollment; express_movement; express_receipt; express_shipment; file_management; general_ledger; in_out; invoice; issue_management; log; match_po_receipt_invoice; material_management; order; payment; payment_allocation; payment_print_export; payroll_action_notice; pos; product; security; store; time_control; time_record; ui; user_customization; workflow;"
 
 
 # Middleware Name
