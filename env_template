@@ -45,7 +45,7 @@ VUE_UI_HOST=adempiere-all.vue
 VUE_UI_PORT=8891
 
 # API
-VUE_API_IMAGE="solopcloud/adempiere-proxy:experimental-1.9.8"
+VUE_API_IMAGE="solopcloud/adempiere-proxy:alpine-1.9.8"
 VUE_API_HOST=adempiere-all.vue.api
 ES_HOST=localhost
 ES_PORT="9200"
