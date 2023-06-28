@@ -65,7 +65,6 @@ services:
       timeout: 10s
     environment:
       DB_HOST: ${POSTGRES_NAME}
-      SERVER_PRIVATE_KEY: ${SERVER_PRIVATE_KEY}
     depends_on:
       adempiere.db:
         condition: service_healthy
